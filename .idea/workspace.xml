@@ -1,52 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c55d957c-6326-4103-b1a7-1af7337adcaa" name="Changes" comment="" />
+    <list default="true" id="c55d957c-6326-4103-b1a7-1af7337adcaa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/part1/unicafe/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part1/unicafe/.oxlintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part1/unicafe/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part1/unicafe/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part1/unicafe/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part1/unicafe/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part1/unicafe/public/favicon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part1/unicafe/public/icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part1/unicafe/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part1/unicafe/src/App.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part1/unicafe/src/assets/hero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part1/unicafe/src/assets/react.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part1/unicafe/src/assets/vite.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part1/unicafe/src/component/Anecdotes.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part1/unicafe/src/component/Statistics.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part1/unicafe/src/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part1/unicafe/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part1/unicafe/src/main.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part1/unicafe/vite.config.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7,
-  "fromUser": false
-}]]></component>
-  <component name="ProjectId" id="3IMzrBfsbrBNzrHHDfVn6SvJMhn" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "javascript.preferred.runtime.type.id": "node",
-    "last_opened_file_path": "/Users/arthursereda/Projects/fullstackopen-course",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "javascript.preferred.runtime.type.id": "node"
   }
 }]]></component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-WS-262.9437.145" />
-      </set>
-    </attachedChunks>
-  </component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="c55d957c-6326-4103-b1a7-1af7337adcaa" name="Changes" comment="" />
-      <created>1787589421325</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1787589421325</updated>
-      <workItem from="1787589422440" duration="1270000" />
-    </task>
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
   </component>
 </project>
