@@ -30,6 +30,20 @@ app.get('/api/persons', (req, res) => {
     return res.json(persons);
 })
 
+app.get('/api/info', (req, res) => {
+    const personsCount = persons.length;
+    const date = new Date();
+    const hours = date.getHours() > 9 ? date.getHours() : `0${date.getHours()}`;
+    const minutes = date.getMinutes() > 9 ? date.getMinutes() : `0${date.getMinutes()}`;
+
+    const dateLine = `${date.getFullYear()}-${date.getMonth() + 1}-${date.getDate()} ${hours}:${minutes}`;
+
+    return res.send(`
+        <h1>${personsCount} person${personsCount > 1 ? 's' : ''} in phonebook</h1>
+        <p>${dateLine}</p>
+    `)
+})
+
 app.listen(PORT, () => {
     console.log(`Listening on port ${PORT}`);
 })
