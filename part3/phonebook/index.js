@@ -2,6 +2,7 @@ import express from 'express';
 
 const PORT = 3001;
 const app = express()
+app.use(express.json());
 
 let persons = [
     {
@@ -53,6 +54,26 @@ app.delete('/api/persons/:id', (req, res) => {
     persons = persons.filter((person) => person.id !== id);
 
     return res.status(204).end();
+})
+
+app.post('/api/persons', (req, res) => {
+    const person = req.body;
+
+    if (!person?.name) {
+        return res.status(400).json({
+            error: 'Name field is required',
+        })
+    }
+
+    const newPerson = {
+        id: persons.length + 1,
+        name: person.name,
+        number: person?.number,
+    }
+
+    persons.push(newPerson);
+
+    return res.status(201).json(newPerson);
 })
 
 app.get('/api/info', (req, res) => {
