@@ -65,10 +65,24 @@ app.post('/api/persons', (req, res) => {
         })
     }
 
+    if (!person?.number) {
+        return res.status(400).json({
+            error: 'Number field is required',
+        })
+    }
+
+    const isDuplicateName = persons.find((p) => p.name === person.name)
+
+    if (isDuplicateName) {
+        return res.status(400).json({
+            error: 'Name field must be unique',
+        })
+    }
+
     const newPerson = {
-        id: persons.length + 1,
+        id: String(persons.length + 1),
         name: person.name,
-        number: person?.number,
+        number: person.number,
     }
 
     persons.push(newPerson);
