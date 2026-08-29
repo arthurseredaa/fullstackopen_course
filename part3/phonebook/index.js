@@ -1,10 +1,14 @@
 import express from 'express';
 import morgan from 'morgan';
 
+morgan.token('body', function getBody(req) {
+    return JSON.stringify(req.body)
+})
+
 const PORT = 3001;
 const app = express()
 app.use(express.json());
-app.use(morgan('tiny'));
+app.use(morgan(':method :url :status :body'));
 
 let persons = [
     {
